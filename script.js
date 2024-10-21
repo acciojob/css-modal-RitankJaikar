@@ -4,7 +4,7 @@ const closeButton= document.querySelector(".close-modal");
 const modalContent= document.querySelector(".modal-content");
 
 openButton.addEventListener("click", event => {
-	modal.style.display= "flex";
+	modal.style.display= "block";
 	setTimeout(() => {
 		modalContent.classList.add("show");
 	}, 10)
