@@ -8,11 +8,14 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<button id="openModal">Open Model</button>
-	<div model="modal">
+	<input type="checkbox" name="open" id="open-close">
+	<label for="open-close">Open Model</label>
+	<button id="openModal" style="display: none;">Open Model</button>
+	<div class="modal">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button class="close-modal">X</button>
+				<label for="open-close" class="close-modal-label">X</label>
+				<button class="close-modal" style="display: none;"">X</button>
 				<h2>Modal Header</h2>
 			</div>
 			<div class="modal-body">
